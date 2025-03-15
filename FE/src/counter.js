@@ -15,6 +15,7 @@ async function fetchData() {
 
     //Parsing
     const jsonResp = await resp.json();
+    console.log("My Respionse 2+++++", jsonResp);
   } catch (err) {
     console.log("Errr++++", err);
   }
